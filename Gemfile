@@ -56,3 +56,12 @@ gem 'simple_form'
 
 # Use Devise
 gem 'devise', '>= 3.2.4'
+
+# Use CarrierWave
+gem 'carrierwave'
+
+# Use Figaro
+gem 'figaro'
+
+# Use Fog
+gem "fog", "~> 1.3.1"
