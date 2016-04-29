@@ -65,3 +65,6 @@ gem 'figaro'
 
 # Use Fog
 gem "fog", "~> 1.3.1"
+
+# Use ImageMagick
+gem 'mini_magick', '~> 4.3.1'
