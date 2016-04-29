@@ -57,8 +57,9 @@ gem 'simple_form'
 # Use Devise
 gem 'devise', '>= 3.2.4'
 
-# Use CarrierWave
+# Use CarrierWave & CarrierWave-AWS
 gem 'carrierwave'
+gem 'carrierwave-aws'
 
 # Use Figaro
 gem 'figaro'
