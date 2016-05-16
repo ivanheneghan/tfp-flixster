@@ -6,7 +6,7 @@
     <%= current_lesson.subtitle %>
   </p>
   
-  <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+  <video id="my-video" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width="640" height="264"
   poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
     <source src="<%= current_lesson.video.to_s %>" type='video/mp4'>
     <noscript>
