@@ -24,11 +24,6 @@
     <% else %>
       <%= link_to 'Enroll', course_enrollments_path(@course), class: 'btn btn-primary', method: :post %>
       <%= form_tag course_enrollments_path(@course) do %>
-        <article>
-          <label class="amount">
-            <span>Amount: $5.00</span>
-          </label>
-        </article>
         <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                 data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
                 data-description="A month's subscription"
