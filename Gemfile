@@ -72,3 +72,6 @@ gem 'mini_magick', '~> 4.3.1'
 
 # Use Stripe
 gem 'stripe'
+
+# Use Ranked Model
+gem 'ranked-model'
